@@ -1,0 +1,13 @@
+.navbar {
+  height: 90px;
+  background-color: $secondary-background-color;
+  display: flex;
+  justify-content: center;
+
+  &__title {
+    align-items: center;
+    font-size: $title-font-size;
+    color: white;
+    font-family: $title-font-family;
+  }
+}

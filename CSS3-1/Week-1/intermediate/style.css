@@ -1,0 +1,47 @@
+.rectangle {
+  width: 200px;
+  padding: 10px 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: aqua;
+}
+
+#container-1 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  /* option-1 */
+  /* border: 3px solid black; */
+
+  /* option-2 */
+  /* border-top: 10px solid #2bff00;
+  border-bottom: 10px solid #971cb6;
+  border-left: 5px solid #3e22b9;
+  border-right: 10px solid #d10e4f; */
+}
+
+#text-content-1 {
+  width: 200px;
+}
+
+#container-2 {
+  border: 10px dotted red;
+  background-clip: padding-box;
+  /* option-3 */
+  /* background-clip: border-box; */
+  /* option-4 */
+  /* border: 3px dashed red; */
+}
+
+#text-content-2 {
+  width: 250px;
+}
+
+#container-3 {
+  border: 30px solid;
+  border-image: repeating-linear-gradient(45deg, #ec6f08, #b226c4, #f80f0f 30px) 60;
+}
+
+#text-content-3 {
+  max-width: 250px;
+}

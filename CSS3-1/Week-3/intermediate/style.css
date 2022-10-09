@@ -1,0 +1,34 @@
+section {
+  display: flex;
+  /* comment-1: it is provided that containers are moved to other lines with "flex-wrap: wrap" */
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.container {
+  height: 188px;
+  background-color: rgb(212, 94, 94);
+  /* option-1 */
+  /* flex-grow: 1; */
+
+  /* comment-2: numbers in container aligned */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* comment-3: each container is assigned a width value in turn */
+.container:nth-child(3n) {
+  width: 250px;
+}
+
+.container:nth-child(3n + 1) {
+  width: 350px;
+}
+
+.container:nth-child(3n + 2) {
+  width: 300px;
+}

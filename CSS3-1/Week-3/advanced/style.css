@@ -1,0 +1,74 @@
+/* comment-1: the table with guests is aligned. section consists of 3 containers */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dinner-table {
+  width: 500px;
+  height: 400px;
+  background-color: #e9820c;
+  border-radius: 7px;
+}
+
+/* comment-2: guests in the vertical-guests class are vertically aligned with "flex-direction: column;"*/
+.vertical-guests {
+  height: 400px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* Note: "flex-wrap: wrap" has no effect in this training. it is a just example for learning  */
+
+  /* option-1 */
+  /* flex-flow: column wrap; */
+}
+
+/* comment-3: guests in the horizontal-guests class are horizontally aligned */
+.horizontal-guests {
+  height: 100px;
+  width: 500px;
+  display: flex;
+}
+
+/* comment-4: all of guests are styled */
+.vertical-guests > div,
+.horizontal-guests > div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(1, 56, 56);
+  border-radius: 50%;
+}
+
+/* comment-5: guests sitting to the top of the table are assigned "justify-content: space-between;" value */
+.horizontal-guests:nth-child(1) {
+  justify-content: space-between;
+  /* option-2 */
+  /* justify-content: flex-end;
+  column-gap: 5px; */
+}
+
+/* comment-6: guests sitting to the bottom of the table are assigned "justify-content: space-around;" value */
+.horizontal-guests:nth-child(3) {
+  justify-content: space-around;
+  /* option-3 */
+  /* justify-content: flex-start;
+  column-gap: 5px; */
+}
+
+/* comment-7: guests sitting to the left of the table are assigned "justify-content: flex-end;" value */
+.vertical-guests:nth-child(1) {
+  justify-content: flex-end;
+  row-gap: 5px;
+  /* option-4 */
+  /* justify-content: space-around; */
+}
+
+/* comment-8: guests sitting to the right of the table are assigned "justify-content: center;" value */
+.vertical-guests:nth-child(3) {
+  justify-content: center;
+  row-gap: 5px;
+  /* option-5 */
+  /* justify-content: space-evenly; */
+}

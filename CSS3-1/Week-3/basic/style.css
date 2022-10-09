@@ -1,0 +1,48 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: #8383ff;
+  border: 1px solid #000000;
+  margin-left: 40px;
+  margin-top: 20px;
+  /* option-1 */
+  /* display: inline-block; */
+}
+
+#container-1 {
+  /* option-2 */
+  /* visibility: hidden; */
+  
+  /* option-3 */
+  /* display: none; */
+}
+
+h2 {
+  color: #ff0000;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  background-color: #040442;
+  /* option-4 */
+  /* display: inline; */
+}
+
+#block-example {
+  width: 200px;
+  height: 200px;
+  margin: 30px 40px;
+  background-color: #00ff00;
+}
+
+#block-example > span {
+  /* option-5 */
+  /* display: block; */
+
+  /* option-6 */
+  /* display: none; */
+  color: #ffffff;
+  height: 50px;
+  background-color: #ff0000;
+}

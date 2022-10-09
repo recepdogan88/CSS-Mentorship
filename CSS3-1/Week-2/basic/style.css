@@ -1,0 +1,43 @@
+/* option-1 */
+/* li {
+  list-style: none;
+} */
+
+/* option-2 */
+/* li {
+  list-style-type: circle;
+} */
+
+/* option-3 */
+/* li {
+  list-style-type: square;
+} */
+
+/* option-4 */
+/* li {
+  list-style-type: decimal;
+} */
+
+/* option-5 */
+/* li {
+  list-style-type: upper-roman;
+} */
+
+/* option-6 */
+/* li {
+  list-style-type: lower-alpha;
+} */
+
+/* option-7 */
+/* li {
+  list-style-position: inside;
+  border: 1px solid black;
+  width: 100px;
+} */
+
+/* option-8 (default list-style-position: outside */
+/* li {
+  list-style-position: outside;
+  border: 1px solid black;
+  width: 100px;
+} */

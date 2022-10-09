@@ -1,0 +1,74 @@
+body {
+  background-color: #d6d6d6;
+  margin: 0px;
+  /* comment-1: option-1 and option-2 will be used together to show position: fixed */
+  /* option-1 */
+  /* height: 2000px; */
+}
+
+nav {
+  background-color: #000000;
+  padding: 30px 20px 30px 20px;
+  /* option-2 */
+  /* position: fixed;
+  width: 1310px; */
+}
+
+#logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+/* comment-2: it is styled "go" text */
+#logo span {
+  color: crimson;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*comment-3: all of icons in a element styled */
+a > i {
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+}
+
+/*comment-4: all of icons are styled when they are hover */
+a > i:hover,
+button:hover {
+  color: #6cc3fd;
+}
+
+a > i:active,
+button:active {
+  color: #0000ff;
+}
+
+/*comment-5: The search section is positioned 20px from the far right */
+nav > span {
+  position: absolute;
+  right: 20px;
+}
+
+/*comment-6: The input is positioned 5px from the bottom and the left */
+input {
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+button {
+  border: none;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 30px;
+}

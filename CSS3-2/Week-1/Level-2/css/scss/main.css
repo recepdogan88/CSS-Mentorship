@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+h1 {
+  color: red;
+}
+
+h3 {
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b8b8b8;
+  height: 100vh;
+}
+
+.navbar {
+  height: 90px;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+}
+.navbar__title {
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  height: 90px;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+}
+.footer__title {
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  width: 360px;
+  height: 520px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__input-area {
+  margin-top: 30px;
+}
+.form__label {
+  opacity: 0.7;
+}
+.form__input {
+  border: none;
+  border-bottom: 1px solid #1890ff;
+  padding: 5px 10px;
+  outline: none;
+  width: 15vw;
+}
+.form__input-area > p {
+  margin: 0;
+  margin-top: 7px;
+  text-align: end;
+  font-size: 12px;
+}
+.form__link {
+  text-decoration: none;
+  color: #1890ff;
+}
+.form__link--google {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  color: black;
+}
+.form__link--register {
+  font-weight: bold;
+}
+.form__logo {
+  width: 20px;
+  height: 20px;
+}
+.form__text-or {
+  display: flex;
+  margin-top: 20px;
+}
+.form__text-or span:nth-child(odd) {
+  width: 7.8vw;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  top: 10px;
+}
+.form__register {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.form__link--google:hover, .form__button:hover {
+  background-color: #75bcff;
+  color: white;
+}
+
+.form__button {
+  border-radius: 20px;
+  background-color: #999999;
+  color: white;
+  width: 10vw;
+  height: 6vh;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */

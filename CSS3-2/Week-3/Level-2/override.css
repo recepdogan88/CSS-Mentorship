@@ -1,0 +1,55 @@
+/* variables */
+:root {
+  --background-black: #3b3b3b;
+  --background-green: #a0fd35;
+  --background-purple: #352a77;
+  --background-grey: #c7c7c7;
+  --background-orange: #ff9102;
+}
+
+/* custom bootstrap colors */
+.bg-dark {
+  background-color: var(--background-black) !important;
+}
+
+.bg-primary {
+  background-color: var(--background-purple) !important;
+}
+
+.bg-success {
+  background-color: var(--background-green) !important;
+}
+
+.bg-secondary {
+  background-color: var(--background-grey) !important;
+}
+
+/* for scroll */
+.overflow-scroll {
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: (--background-purple);
+  margin-top: 3vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-orange);
+  border-radius: 5px;
+}
+
+/* animation */
+img:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+#articles > div:hover {
+  animation: rubberBand;
+  animation-duration: 1s;
+}
